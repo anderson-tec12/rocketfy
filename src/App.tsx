@@ -1,10 +1,12 @@
+import { Header } from './components/Header';
 import Globals from './styles/global'
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <Header />
       <Globals />
-    </div>
+    </>
   );
 }
 
